@@ -47,6 +47,6 @@
 **Matikan login dengan Mac Address**
 
 ![Screenshot 2025-06-15 020830](https://github.com/user-attachments/assets/f094a56a-ca34-4fdb-83d4-c92a6d90176b)
-> Masuk ke menu `Tool` pilih `Mac server`
+> Masuk ke menu `Tools` pilih `Mac server`
 > 
 > Disable `Mac telnet server` & `Mac Winbox server`
