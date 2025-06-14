@@ -88,6 +88,13 @@ Contoh menambahkan:
 * Mengatur **trafik yang keluar dari router itu sendiri**
 * Misal: update DNS, NTP, check software update
 
+## **Struktur rule**
+Di MikroTik, urutan rule firewall itu sangat penting, karena dia berjalan dari atas ke bawah dan akan berhenti pada rule pertama yang cocok (first match wins).
+```
+1. rule: accept kondisi tertentu
+2. rule: drop semua sisanya
+```
+Atau sebaliknya.
 
 ## **Action pada Firewall Rules**
 
