@@ -12,7 +12,7 @@
 -  `192.168.10.3` tidak boleh akses `github.com`
 
 ## Konfigurasi
-#### NAT
+### NAT
 
 ![Screenshot 2025-06-15 012547](https://github.com/user-attachments/assets/713797b2-2b3c-441e-b43c-6bbaddd512ab)
 
@@ -23,7 +23,7 @@
 **Tab Action**
 - Action: masquerade → ini adalah jenis NAT yang otomatis menyamarkan IP lokal menjadi IP dari interface keluar (wlan1)
 
-#### Filter rule
+### Filter rule
 > Accept few, Drop any
 >
 > Drop github.com from `192.168.10.3`
@@ -39,7 +39,14 @@
 **Blokir koneksi ke `github.com` dari 192.168.10.3**
 
 ![Screenshot 2025-06-15 014931](https://github.com/user-attachments/assets/1fad2394-3cb0-4090-bbd4-4af9c4441ac3)
->Cek IP github.com
+> Cek IP github.com
 
 ![Screenshot 2025-06-15 015121](https://github.com/user-attachments/assets/f065166f-4cc7-41b0-9604-39516a7c891f)
 > Dst. address IP github.com
+
+**Matikan login dengan Mac Address**
+
+![Screenshot 2025-06-15 020830](https://github.com/user-attachments/assets/f094a56a-ca34-4fdb-83d4-c92a6d90176b)
+> Masuk ke menu `Tool` pilih `Mac server`
+> 
+> Disable `Mac telnet server` & `Mac Winbox server`
