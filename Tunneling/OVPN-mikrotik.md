@@ -44,6 +44,7 @@ diterminal
 ![image](https://github.com/user-attachments/assets/965c3df6-b130-4d54-ad1d-d4c887fb36eb)
 
 `Secrets`
+
 ![image](https://github.com/user-attachments/assets/64c33f1e-0b6b-4f6b-b64d-9d4b82db0c0f)
 
 ### Dari sisi Client
