@@ -17,7 +17,7 @@
 | **Interface** | Antarmuka virtual WireGuard (misal: `wireguard1`). |
 | **Private Key** | Kunci privat router. Jangan dibagikan. |
 | **Public Key** | Kunci publik router. Dibagikan ke peer. |
-| **Listen Port** | Port yang digunakan WireGuard untuk menerima koneksi (default: `51820`). |
+| **Listen Port** | Port yang digunakan WireGuard untuk menerima koneksi (default: `13231`). |
 | **Peer** | Konfigurasi lawan komunikasi (router lain). |
 | **Endpoint** | IP publik atau FQDN router peer (contoh: `203.0.113.2`). |
 | **Endpoint Port** | Port peer yang digunakan untuk WireGuard. |
