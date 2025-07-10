@@ -36,6 +36,12 @@ networking-lab/
 - Routing statik
 - Switching dan bridging
 
+### Dynamic Routing
+- Perbandingan routing statik vs dinamis
+- Konfigurasi OSPF dan RIP pada MikroTik dan Cisco
+- Analisis convergence dan routing failover
+- Simulasi load balancing menggunakan ECMP
+
 ### Firewall & Keamanan
 - Konfigurasi dasar firewall MikroTik 
 - Akses kontrol, NAT, port forwarding
@@ -47,11 +53,17 @@ networking-lab/
 - SSTP
 - Dokumentasi setup site-to-site
 
+### QoS (Quality of Service)
+
+- Pengenalan konsep bandwidth management dan traffic prioritization
+- Konfigurasi simple queue, queue tree, dan burst
+- Pembatasan bandwidth berdasarkan IP, interface, atau service
+- Simulasi latency dan jitter control menggunakan MikroTik
+
 ### VLAN & Trunking
 - Konfigurasi VLAN pada switch
 - VLAN routing antar segmen
 - VLAN dengan MikroTik & Cisco
-
 
 ### Monitoring & Visualisasi
 - Zabbix dan Grafana
@@ -71,3 +83,10 @@ networking-lab/
 - Monitoring jaringan pelanggan
 - Keamanan jaringan dengan IDS/IPS sederhana
 - Integrasi Zabbix + Telegram bot untuk notifikasi
+
+### Troubleshooting Jaringan
+
+- Teknik dasar troubleshooting jaringan: ping, traceroute, torch, packet sniffer
+- Menangani masalah ARP, IP conflict, DNS error, dan gateway unreachable
+- Penggunaan tool bantu: Wireshark, Netwatch, log monitoring
+- Praktik isolasi masalah berdasarkan OSI Layer
